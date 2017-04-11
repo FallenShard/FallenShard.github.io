@@ -1,0 +1,16 @@
+.colorful-div
+{
+    background-color: green;
+    color: red;
+}
+
+.background-div
+{
+    background-color: #333333;
+    color: #FFFFDD;
+}
+
+.row-margin {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
