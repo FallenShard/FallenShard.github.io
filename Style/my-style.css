@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 .colorful-div
 {
     background-color: green;
@@ -8,9 +10,26 @@
 {
     background-color: #333333;
     color: #FFFFDD;
+    font-family: "Open Sans";
 }
 
 .row-margin {
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+.nav-bar-title-style
+{
+    font-weight: 300;
+    color: #FFFFDD;
+    letter-spacing: 6px;
+}
+
+.accent-line
+{
+    background-color: #DDDDAA;
+}
+
+.text-justify {
+  text-align: justify;
 }
