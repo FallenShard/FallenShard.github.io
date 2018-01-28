@@ -1,20 +1,31 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans+Narrow');
 
-.colorful-div
-{
-    background-color: green;
-    color: red;
+body {
+    background-color: #222222;
 }
 
-.background-div
-{
-    background-color: #333333;
-    color: #FFFFDD;
-    font-family: "Open Sans";
+.narrow-font {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.heading {
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: 5px;
+    color: rgb(113, 187, 255);
+}
+
+.content-text {
+    color: #EEEEEE;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.max-w {
+    max-width: 1440px;
+    margin: 0px auto;
 }
 
 .row-margin {
-  margin-bottom: 30px;
+  margin-top: 80px;
 }
 
 .nav-bar-title-style
@@ -29,6 +40,73 @@
     background-color: #DDDDAA;
 }
 
+.pad-box {
+    padding: 20px;
+}
+
 .text-justify {
   text-align: justify;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+.my-grad {
+    background: linear-gradient(#333333FF, #222222FF);
+}
+
+.title-margin {
+    margin-bottom: 80px;
+}
+
+.wrapper {
+    align-items: stretch;
+    display: flex;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #333333;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+#sidebar ul li a:hover {
+    background: #444444;
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: rgb(113, 187, 255);
+    background: #333333;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
 }
