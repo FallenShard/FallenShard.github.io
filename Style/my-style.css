@@ -8,10 +8,28 @@ body {
     font-family: 'PT Sans Narrow', sans-serif;
 }
 
+.subtitle-font {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: rgb(113, 187, 255);
+}
+
+.main-bg-color {
+    background-color: #222222;
+}
+
 .heading {
     font-family: 'PT Sans Narrow', sans-serif;
     letter-spacing: 5px;
     color: rgb(113, 187, 255);
+}
+
+.min-h-b {
+    min-height: 80px;
+}
+
+.caption-text {
+    color: #888888;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 
 .content-text {
