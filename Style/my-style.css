@@ -10,6 +10,7 @@ body {
 
 .subtitle-font {
     font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
     color: rgb(113, 187, 255);
 }
 
@@ -32,6 +33,10 @@ body {
     font-family: 'PT Sans Narrow', sans-serif;
 }
 
+.gradient-img {
+    -webkit-mask-image:-webkit-gradient(linear, left top, right top, color-stop(30%, rgba(0,0,0,0)), color-stop(60%, rgba(0,0,0,1))) 
+}
+
 .content-text {
     color: #EEEEEE;
     font-family: 'Open Sans', sans-serif;
@@ -44,6 +49,10 @@ body {
 
 .row-margin {
   margin-top: 80px;
+}
+
+.card-deck-margin {
+  margin-top: 50px;
 }
 
 .nav-bar-title-style
