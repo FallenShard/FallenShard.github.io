@@ -18,8 +18,8 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto narrow-font">
-            <a class="nav-item nav-link" href="#">Home</a>
-            <a class="nav-item nav-link" href="#">GitHub<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="index.html">Home</a>
+            <a class="nav-item nav-link" href="https://github.com/FallenShard">GitHub<span class="sr-only">(current)</span></a>
             <a class="nav-item nav-link" href="#">About</a>
             <a class="nav-item nav-link" href="#">Contact</a>
         </div>
@@ -33,14 +33,16 @@
             <div class="row row-margin align-items-center">
                 <div class="row card-deck">
                     <div class="col-sm-12 col-xl-12">
-                            <div class="card main-bg-color">
-                                <img class="card-img img-fluid" src="http://via.placeholder.com/1440x500/444444" alt="Card image">
-                                <div class="card-img-overlay">
-                                <h3 class="card-title subtitle-font">Crisp</h3>
-                                <p class="card-text content-text">Crisp is a personal open-source project created with an intent to showcase reference implementations and appearances
-                                    of various rendering techniques I've encountered throughout studying and independent exploration
-                                    of topics in computer graphics.</p>
-                                <a href="crisp-home.html" class="btn btn-primary">Go to subsite</a>
+                        <div class="card main-bg-color">
+                            <img class="card-img img-fluid" src="Resources/Images/crisp-thumbnail.png" alt="Card image">
+                            <div class="card-img-overlay" >
+                                <div id="crisp-div">
+                                    <h3 class="card-title subtitle-font">Crisp</h3>
+                                    <p class="card-text content-text">Crisp is a personal open-source project created with an intent to showcase reference implementations and appearances
+                                        of various rendering techniques I've encountered throughout studying and independent exploration
+                                        of topics in computer graphics.</p>
+                                    <a href="crisp-home.html" class="btn btn-primary">Go to subsite</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -49,23 +51,23 @@
                 <div class="row card-deck card-deck-margin">
                     <div class="col-sm-12 col-xl-6">
                         <div class="card main-bg-color">
-                            <img class="card-img-top img-fluid" src="http://via.placeholder.com/525x200/444444" alt="Card image cap">
+                            <img class="card-img-top img-fluid" src="Resources/Images/fluid-style-transfer-thumbnail.png" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title subtitle-font">Real-time Rendering of Data-driven Fluid Simulations with Style Transfer</h3>
                                 <h6 class="caption-text">Master Thesis</h6>
-                                <p class="card-text content-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <p class="card-text content-text">An application of style transfer in the context of real-time fluid rendering.</p>
+                                <a href="fluid-style-transfer.html" class="btn btn-primary">Read more</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-12 col-xl-6">
                         <div class="card main-bg-color">
-                            <img class="card-img-top" src="http://via.placeholder.com/525x200/444444" alt="Card image cap">
+                            <img class="card-img-top" src="Resources/Images/fruit-smashers-thumbnail.png" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title subtitle-font">Fruit Smashers</h5>
                                 <h6 class="caption-text">Game Programming Lab Project</h6>
-                                <p class="card-text content-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <p class="card-text content-text">A multiplayer video game where the goal is to earn points by smashing or defending fruit stands.</p>
+                                <a href="fruit-smashers.html" class="btn btn-primary">Read more</a>
                             </div>
                         </div>
                     </div>
@@ -73,7 +75,7 @@
                 <div class="row card-deck card-deck-margin">
                     <div class="col-sm-12 col-xl-6">
                             <div class="card main-bg-color">
-                        <img class="card-img-top" src="http://via.placeholder.com/525x200/444444" alt="Card image cap">
+                        <img class="card-img-top" src="Resources/Images/depth-fusion-thumbnail.png" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title subtitle-font">Depth Map and Normal Direction Fusion</h3>
                             <h6 class="caption-text">3D Vision Project</h6>
@@ -85,12 +87,12 @@
                     </div>
                     <div class="col-sm-12 col-xl-6">
                             <div class="card main-bg-color">
-                        <img class="card-img-top" src="http://via.placeholder.com/525x200/444444" alt="Card image cap">
+                        <img class="card-img-top" src="Resources/Images/fire-sim-thumbnail.png" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title subtitle-font">Target-Driven Fire Simulation</h5>
                             <h6 class="caption-text">Physically-based Simulation Project</h6>
-                            <p class="card-text content-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <p class="card-text content-text">Real-time fire and smoke simulation animated to take a specified series of shapes.</p>
+                            <a href="target-driven-fire-simulation.html" class="btn btn-primary">Read more</a>
                         </div>
                             </div>
                     </div>
@@ -98,23 +100,23 @@
                 <div class="row card-deck card-deck-margin">
                         <div class="col-sm-12 col-xl-6">
                                 <div class="card main-bg-color">
-                        <img class="card-img-top" src="http://via.placeholder.com/525x200/444444" alt="Card image cap">
+                        <img class="card-img-top" src="Resources/Images/ray-tracing-thumbnail.png" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title subtitle-font">ETHZ Rendering Competition 2015</h3>
                             <h6 class="caption-text">Computer Graphics Ray Tracing Project</h6>
                             <p class="card-text content-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="ray-tracing-project.html" class="btn btn-primary">Read more</a>
                         </div>
                     </div>
                     </div>
                     <div class="col-sm-12 col-xl-6">
                             <div class="card main-bg-color">
-                        <img class="card-img-top" src="http://via.placeholder.com/525x200/444444" alt="Card image cap">
+                        <img class="card-img-top" src="Resources/Images/dark-spheres-thumbnail.png" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title subtitle-font">Dark Spheres Concept UI</h5>
                             <h6 class="caption-text">Human Computer Interaction Project</h6>
-                            <p class="card-text content-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <p class="card-text content-text">A concept user interface for a hypothetical cyberpunk MMO Dark Spheres, developed and animated entirely in Qt and QML.</p>
+                            <a href="dark-spheres.html" class="btn btn-primary">Read more</a>
                         </div>
                         </div>
                     </div>
