@@ -6,16 +6,15 @@ layout: project
 <div class="col-12 content-text">
                     
     <p>
-        Crisp is a personal open-source project created with an intent to showcase reference implementations and appearances
-        of various rendering techniques I've encountered throughout studying and independent exploration of topics in computer
+        Crisp is a personal open-source project created with an intent to showcase reference implementations and examples
+        of various rendering techniques I've encountered throughout studies and independent exploration of topics in computer
         graphics.
     </p>
     <p>
-        The application includes rendering algorithms and topics approached with either rasterization or ray tracing.
-        In addition, there's also a small, custom GUI layer for learning purposes.
+        The application includes a selection of algorithms that cover real-time rendering, simulations and traditional path tracing.
     </p>
     <p>    
-        The real-time (rasterization) rendering part of the project is built on top of Vulkan API. The ray tracer subsystem is inspired by
+        The real-time rendering pipeline is built on top of Vulkan API. The CPU path tracer subsystem is inspired by
         the architecture of Nori, an educational ray tracer used in the Computer Graphics AS15 course at ETH Zurich.
     </p>
     <p>
@@ -23,10 +22,14 @@ layout: project
         overview of implemented features is given below.
     </p>
     <p>
-        Rasterization-based/real-time rendering on the GPU:
+        Real-time rendering samples implemented:
         <ul>
+            <li>GPU path tracer with multiple importance sampling with Ray Tracing extensions</li>
+            <li>Basic GLTF viewer</li>
+            <li>FFT-based ocean simulation</li>
+            <li>Dynamic atmospheric shading</li>
             <li>Screen space ambient occlusion</li>
-            <li>Weakly compressible SPH fluid simulation with surface tension (in Vulkan compute shaders)</li>
+            <li>GPU-based weakly compressible SPH fluid simulation with surface tension</li>
             <li>Shadow mapping techniques: PCF, VSM, CSM</li>
             <li>Blinn-Phong shading</li>
             <li>UE4 style physically-based material shading with image-based lighting</li>
@@ -35,11 +38,6 @@ layout: project
             <li>Basic alpha masking for foliage rendering</li>
             <li>Tiled forward shading</li>
             <li>Dynamic terrain tessellation</li>
-            <li>Experiments with Vulkan ray-tracing API through official KHR extension</li>
-            <li>FFT-based ocean simulation</li>
-            <li>Dynamic atmospheric shading based on <a href=https://sebh.github.io/publications/egsr2020.pdf>A Scalable and
-                    Production
-                    Ready Sky and Atmosphere Rendering Technique</a></li>
         </ul>
     </p>
     <p>
@@ -180,6 +178,20 @@ layout: project
     <figure class="figure">
         <img src="assets/images/crisp/pbr_brick.png" class="figure-img img-fluid rounded" alt="Fluid">
         <figcaption class="figure-caption text-center">PBR-shaded brick</figcaption>
+    </figure>
+</div>
+
+<div class="col-4">
+    <figure class="figure">
+        <img src="assets/images/crisp/gltf_render.png" class="figure-img img-fluid rounded" alt="Fluid">
+        <figcaption class="figure-caption text-center">GLTF Helmet</figcaption>
+    </figure>
+</div>
+
+<div class="col-4">
+    <figure class="figure">
+        <img src="assets/images/crisp/vulkan_ray_tracing.png" class="figure-img img-fluid rounded" alt="Fluid">
+        <figcaption class="figure-caption text-center">Vulkan Path Tracer</figcaption>
     </figure>
 </div>
 
