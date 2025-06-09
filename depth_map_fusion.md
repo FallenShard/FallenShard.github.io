@@ -32,7 +32,7 @@ layout: project
     <div class="line-breaker"></div>
     <h3 class="content-section-title">References &amp; Further Reading</h3>
     <ol class="reference-list">
-        <li>D. Vicini, N. Bartolovic and D. Keyes.<a href="https://drive.google.com/open?id=1ZM7SP8sd0_O0POszhlTB0HQgbYMsVria">
+        <li>D. Vicini, N. Bartolovic and D. Keyes.<a href="https://drive.google.com/file/d/1c7YidM2nyGMx_6MaIkNX4-_CbjqjQa1i/view?usp=drive_link">
             <em>Depth map and normal direction fusion</em></a>. ETH Zurich, 3D Vision course. 2016.</li>
         <li>C. Zach. <a href="https://www.inf.ethz.ch/personal/pomarc/pubs/paper196.pdf"><em>Fast and high quality fusion of depth maps</em></a>. Proceedings of the international symposium on 3D data processing, visualization and transmission (3DPVT). Vol. 1. No. 2. 2008.</li>
     </ol>
