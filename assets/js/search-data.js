@@ -316,7 +316,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/assets/pdf/example_pdf.pdf";
+            window.location.href = "/assets/pdf/nemanja_bartolovic_resume.pdf";
           
         },
       },{id: "post-a-post-with-diagrams",
