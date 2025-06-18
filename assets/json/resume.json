@@ -1,0 +1,111 @@
+{
+  "basics": {
+    "name": "Nemanja Bartolovic",
+    "label": "Software Engineer",
+    "image": "",
+    "email": "nemanjabartolovic@gmail.com",
+    "url": "https://fallenshard.github.io",
+    "location": { "city": "Zurich", "countryCode": "CH" }
+  },
+  "work": [
+    {
+      "name": "Meta",
+      "position": "Staff Software Engineer",
+      "startDate": "2021-08-15",
+      "summary": "real-time rendering, neural rendering, performance optimizations, cloth simulation",
+      "highlights": [
+        "Spearheading the initiative and development for a unified photorealistic real-time renderer for environments and digital avatars in VR via modern neural rendering approaches, like Gaussian splatting. Shipped Meta Horizon Hyperscape, a demo app that showcases photorealistic environments on Quest devices.",
+        "Reduced training costs in multiple millions of dollars per year by optimizing CUDA kernels and training pipelines for large-scale ML efforts in 3D reconstruction of digital avatars.",
+        "Scaled high-fidelity cloth simulations and rendering for digital humans. Led development of various cloth simulation components, both on CPU (SIMD) and GPU (CUDA), as well as real-time neural ML deformers (Vulkan, Torch) that run on VR devices.",
+        "Created several cross-platform libraries related to computer graphics used by dozens of internal teams in diverse projects (acceleration structures, Vulkan abstraction layer, GPU tracing, Gaussian splatting runtime)."
+      ]
+    },
+    {
+      "name": "Daedalean AG",
+      "position": "Software Engineer",
+      "startDate": "2020-09-01",
+      "endDate": "2021-08-01",
+      "summary": "real-time rendering, machine learning, flight simulations",
+      "highlights": [
+        "Worked on reliable autonomous piloting systems for aircraft through vision-based methods.",
+        "Developed a near real-time cloud-based rendering and simulation service to generate large-scale multi-view aerial synthetic data for multiple internal teams.",
+        "Improved the detect-and-avoid system by scaling its infrastructure for training models, sophisticated data augmentation (TensorFlow) and safety-critical testing."
+      ]
+    },
+    {
+      "name": "ETH Zürich",
+      "position": "Research Assistant",
+      "startDate": "2019-05-01",
+      "endDate": "2020-08-01",
+      "summary": "scientific visualization, flow analysis, dimensionality reduction, machine learning",
+      "highlights": [
+        "Developed novel techniques for dimensionality reduction, topology, feature extraction and visualization of high-dimensional flows, gravitational and general dynamical systems. Primary methods of approach included nonlinear optimization, machine learning and variational calculus."
+      ]
+    },
+    {
+      "name": "Kapanu AG",
+      "position": "Rendering Engineer",
+      "startDate": "2017-06-01",
+      "endDate": "2019-05-01",
+      "summary": "real-time rendering, software architecture, geometry processing, inverse rendering",
+      "highlights": [
+        "Shipped IvoSmile, a mobile AR try-on tool for dentists that aids in communicating dental prosthetic treatments.",
+        "Developed an efficient mobile-first software architecture (iOS, Android), a cross-platform real-time rendering system (OpenGL), optimized performance and developed several geometry processing algorithms for dentures. Conducted R\\&D on rendering and machine learning  as well as physical lab design for capturing dental materials"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "ETH  Zurich, Zurich, Switzerland",
+      "location"   : "Zurich, Switzerland",
+      "area"       : "Computer Science - Visual Computing",
+      "studyType"  : "Master in Computer Science",
+      "startDate"  : "2015-09-01",
+      "endDate"    : "2017-04-01"
+    },
+    {
+      "institution": "Faculty of Electronic Engineering, Nis, Serbia",
+      "location"   : "Nis, Serbia",
+      "url"        : "https://www.uzh.ch/",
+      "area"       : "Computer Science",
+      "studyType"  : "Bachelor in Computer Science",
+      "startDate"  : "2011-10-01",
+      "endDate"    : "2015-07-01"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Hardware-Rasterized Ray-Based Gaussian Splatting",
+      "publisher": "CVPR 2025",
+      "releaseDate": "2025",
+      "url": "https://arxiv.org/abs/2503.18682",
+      "summary": "Co-developed a novel rasterization-based Gaussian splatting algorithm that minimizes projection errors in high field-of-view settings like VR rendering. "
+    },
+    {
+      "name"       : "SqueezeMe: Mobile-Ready Distillation of Gaussian Full-Body Avatars",
+      "publisher"  : "SIGGRAPH 2025",
+      "releaseDate": "2025",
+      "url"        : "https://arxiv.org/abs/2412.15171",
+      "summary"    : "Co-developed a method to animate and render multiple digital human avatars in VR."
+    },
+    {
+      "name": "Phase Space Projection of Dynamical Systems",
+      "publisher": "EuroVis 2020",
+      "releaseDate": "2020",
+      "url": "https://doi.org/10.1111/cgf.13978",
+      "summary": "Developed a flow and curvature-preserving dimensionality reduction technique for trajectories in high-dimensional dynamical system phase spaces. One of the best papers with Honorable Mention Award."
+    },
+    {
+      "name": "PhysicsForests: Real-Time Fluid Simulation Using Machine Learning",
+      "publisher": "SIGGRAPH 2017",
+      "releaseDate": "2017",
+      "url": "https://doi.org/10.1145/3098333.3098337",
+      "summary": "Implemented rendering techniques used to visualize fluid simulations which were initially developed during my Master's thesis, as well as improvements to the core simulation framework."
+    }
+  ],
+  "languages": [
+    { "language": "English", "fluency": "Fluent",         "icon": "" },
+    { "language": "Serbian", "fluency": "Native Speaker", "icon": "" },
+    { "language": "German",  "fluency": "Basic",          "icon": "" }
+  ]
+}
