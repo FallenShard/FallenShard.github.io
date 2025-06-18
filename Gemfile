@@ -1,12 +1,11 @@
-gem 'base64'
-
 source 'https://rubygems.org'
 
-gem 'jekyll', '~> 4.3.0'
-gem 'mutex_m'
+gem 'jekyll'
 
 # Core plugins that directly affect site building
 group :jekyll_plugins do
+    gem 'base64'
+    gem 'mutex_m'
     gem 'jekyll-archives-v2'
     gem 'jekyll-email-protect'
     gem 'jekyll-feed'
