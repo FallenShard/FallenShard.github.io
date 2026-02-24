@@ -1,9 +1,20 @@
+@use "sass:string";
+
 // functions
 // --------------------------
 
+// Compatibility wrappers for Dart Sass deprecations in generated upstream files.
+@function unquote($value) {
+  @return string.unquote($value);
+}
+
+@function str-insert($string-value, $insert, $index) {
+  @return string.insert($string-value, $insert, $index);
+}
+
 // fa-content: convenience function used to set content property
 @function fa-content($fa-var) {
-  @return unquote("\"#{ $fa-var }\"");
+  @return string.unquote("\"#{ $fa-var }\"");
 }
 
 // fa-divide: Originally obtained from the Bootstrap https://github.com/twbs/bootstrap

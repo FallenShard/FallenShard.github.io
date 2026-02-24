@@ -35,7 +35,7 @@ $ti-prefix: 'ti' !default;
 
 
 @function unicode($str) {
-  @return str.unquote("\"")+str.unquote(str-insert($str, "\\", 1))+str.unquote("\"");
+  @return str.unquote("\"") + str.unquote(str.insert($str, "\\", 1)) + str.unquote("\"");
 }
 
 
