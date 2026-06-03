@@ -1,7 +1,7 @@
 {
   "basics"      : {
     "name"    : "Nemanja Bartolovic",
-    "label"   : "Software Engineer",
+    "label"   : "Computer Graphics Software Engineer",
     "image"   : "",
     "email"   : "nemanjabartolovic@gmail.com",
     "url"     : "https://fallenshard.github.io",
@@ -9,16 +9,17 @@
   },
   "work"        : [
     {
-      "name"      : "Meta",
+      "name"      : "Meta Platforms, Reality Labs",
       "position"  : "Senior Staff Software Engineer",
       "startDate" : "2021-08-15",
       "summary"   : "real-time rendering, neural rendering, performance optimizations, cloth simulation",
       "highlights": [
-        "Tech lead for neural graphics and novel representations for real-time rendering on embedded devices.",
-        "Spearheading the initiative and development for a unified photorealistic real-time renderer for environments and digital avatars in VR via modern neural rendering approaches, like Gaussian splatting. Shipped Meta Horizon Hyperscape, a demo app that showcases photorealistic environments on Quest devices.",
-        "Reduced training costs in multiple millions of dollars per year by optimizing CUDA kernels and training pipelines for large-scale ML efforts in 3D reconstruction of digital avatars.",
-        "Scaled high-fidelity cloth simulations and rendering for digital humans. Led development of various cloth simulation components, both on CPU (SIMD) and GPU (CUDA), as well as real-time neural ML deformers (Vulkan, Torch) that run on VR devices.",
-        "Created several cross-platform libraries related to computer graphics used by dozens of internal teams in diverse projects (acceleration structures, Vulkan abstraction layer, GPU tracing, Gaussian splatting runtime)."
+        "Tech lead for real-time neural graphics and novel representations, coordinating work across multiple teams and organizations to ship research ideas into production.",
+        "Spearheaded a company-wide, unified photorealistic real-time renderer for VR environments and digital avatars via modern neural rendering. Designed and co-developed components across the full vertical stack (artist tools, game engine integration, evaluation pipelines, core rendering systems), and mentored 10+ engineers and researchers in real-time rendering.",
+        "Shipped Meta Horizon Hyperscape, a VR app showcasing photorealistic environments via Gaussian splatting.",
+        "Reduced ML training costs by several million dollars annually by optimizing CUDA kernels and training pipelines for large-scale 3D reconstruction of digital avatars.",
+        "Scaled high-fidelity cloth simulation and rendering for digital humans, leading components on CPU (SIMD) and GPU (CUDA) as well as real-time neural ML deformers (Vulkan, PyTorch) running on VR devices.",
+        "Built several cross-platform computer graphics libraries and tools used by dozens of internal teams (acceleration structures, Vulkan abstraction layer, GPU profiling, Gaussian splatting runtime)."
       ]
     },
     {
@@ -28,9 +29,9 @@
       "endDate"   : "2021-08-01",
       "summary"   : "real-time rendering, machine learning, flight simulations",
       "highlights": [
-        "Worked on reliable autonomous piloting systems for aircraft through vision-based methods.",
-        "Developed a near real-time cloud-based rendering and simulation service to generate large-scale multi-view aerial synthetic data for multiple internal teams.",
-        "Improved the detect-and-avoid system by scaling its infrastructure for training models, sophisticated data augmentation (TensorFlow) and safety-critical testing."
+        "Developed reliable autonomous piloting systems for aircraft using vision-based methods.",
+        "Built a cloud-based rendering and simulation service generating large-scale multi-view aerial synthetic data for multiple internal teams.",
+        "Improved the detect-and-avoid system by scaling training infrastructure, implementing sophisticated data augmentation (TensorFlow), and safety-critical testing."
       ]
     },
     {
@@ -40,7 +41,7 @@
       "endDate"   : "2020-08-01",
       "summary"   : "scientific visualization, flow analysis, dimensionality reduction, machine learning",
       "highlights": [
-        "Developed novel techniques for dimensionality reduction, topology, feature extraction and visualization of high-dimensional flows, gravitational and general dynamical systems. Primary methods of approach included nonlinear optimization, machine learning and variational calculus."
+        "Developed novel techniques for dimensionality reduction, topology, feature extraction and visualization of high-dimensional flows and dynamical systems, using nonlinear optimization, machine learning and variational calculus."
       ]
     },
     {
@@ -51,7 +52,7 @@
       "summary"   : "real-time rendering, software architecture, geometry processing, inverse rendering",
       "highlights": [
         "Shipped IvoSmile, a mobile AR try-on tool for dentists that aids in communicating dental prosthetic treatments.",
-        "Developed an efficient mobile-first software architecture (iOS, Android), a cross-platform real-time rendering system (OpenGL), optimized performance and developed several geometry processing algorithms for dentures. Conducted R\\&D on rendering and machine learning  as well as physical lab design for capturing dental materials"
+        "Developed an efficient mobile-first software architecture (iOS, Android), a cross-platform real-time rendering system (OpenGL), optimized performance and built several geometry processing algorithms for dentures. Conducted R&D on rendering, machine learning and physical lab design for capturing dental materials."
       ]
     }
   ],
@@ -80,14 +81,14 @@
       "publisher": "CVPR 2025",
       "releaseDate": "2025",
       "url": "https://arxiv.org/abs/2503.18682",
-      "summary": "Co-developed a novel rasterization-based Gaussian splatting algorithm that minimizes projection errors in high field-of-view settings like VR rendering. "
+      "summary": "Co-developed a novel rasterization-based Gaussian splatting algorithm that minimizes projection errors in high field-of-view settings like VR rendering."
     },
     {
       "name"       : "SqueezeMe: Mobile-Ready Distillation of Gaussian Full-Body Avatars",
       "publisher"  : "SIGGRAPH 2025",
       "releaseDate": "2025",
       "url"        : "https://arxiv.org/abs/2412.15171",
-      "summary"    : "Co-developed a method to animate and render multiple digital human avatars in VR."
+      "summary"    : "Developed a method to animate and render multiple digital human avatars in real-time on commodity VR hardware."
     },
     {
       "name": "Phase Space Projection of Dynamical Systems",
@@ -102,6 +103,70 @@
       "releaseDate": "2017",
       "url": "https://doi.org/10.1145/3098333.3098337",
       "summary": "Implemented rendering techniques used to visualize fluid simulations which were initially developed during my Master's thesis, as well as improvements to the core simulation framework."
+    }
+  ],
+  "talks"       : [
+    {
+      "name"       : "Gaussian Splatting: Ready for Standardization?",
+      "publisher"  : "SIGGRAPH 2025",
+      "releaseDate": "2025",
+      "url"        : "",
+      "summary"    : "Described the state of Gaussian splatting at Meta and outlined practical forward-looking file format considerations."
+    }
+  ],
+  "projects"    : [
+    {
+      "name"      : "Crisp",
+      "url"       : "/projects/crisp/",
+      "startDate" : "2016-01",
+      "summary"   : "Personal renderer — rasterization and ray tracing with a Vulkan backend.",
+      "highlights": [
+        "A personal renderer for experimenting with new ideas and algorithms in the domain of real-time rendering (rasterization and ray tracing) with a Vulkan backend. Built and maintained in my free time."
+      ]
+    }
+  ],
+  "skills"      : [
+    { "name": "Languages & APIs", "keywords": ["C++, Vulkan, OpenGL, Python, C, MATLAB, CUDA, SIMD"] },
+    { "name": "Tools", "keywords": ["VS Code, Visual Studio, RenderDoc, Nsight, Git, Mercurial, CMake, Bazel, Buck"] },
+    { "name": "General", "keywords": ["Software architecture, modern C++, optimization"] },
+    { "name": "Visual Computing", "keywords": ["Real-time rendering, ray tracing, geometry processing, neural rendering, physically-based simulation"] }
+  ],
+  "patents"     : [
+    {
+      "title"  : "Method for Aligning a 3D Dentition Model to a Face Image (US 11,544,861)",
+      "date"   : "2023",
+      "awarder": "Ivoclar Vivadent AG",
+      "url"    : "https://patents.google.com/patent/US11544861B2"
+    },
+    {
+      "title"  : "Computer-Implemented Method for Modifying a Digital 3D Dentition Model (US 11,344,392)",
+      "date"   : "2022",
+      "awarder": "Ivoclar Vivadent AG",
+      "url"    : "https://patents.google.com/patent/US11344392B2"
+    },
+    {
+      "title"  : "Dental Model Attributes Transfer (US 11,244,519)",
+      "date"   : "2022",
+      "awarder": "Ivoclar Vivadent AG",
+      "url"    : "https://patents.google.com/patent/US11244519B2"
+    },
+    {
+      "title"  : "Rendering a Dental Model in an Image (US 11,213,374)",
+      "date"   : "2022",
+      "awarder": "Ivoclar Vivadent AG",
+      "url"    : "https://patents.google.com/patent/US11213374B2"
+    },
+    {
+      "title"  : "Rendering of Dental Models (US 11,083,552)",
+      "date"   : "2021",
+      "awarder": "Ivoclar Vivadent AG",
+      "url"    : "https://patents.google.com/patent/US11083552B2"
+    },
+    {
+      "title"  : "Dental Design Transfer (US 10,980,621)",
+      "date"   : "2021",
+      "awarder": "Ivoclar Vivadent AG",
+      "url"    : "https://patents.google.com/patent/US10980621B2"
     }
   ],
   "languages"   : [

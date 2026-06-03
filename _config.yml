@@ -197,7 +197,6 @@ keep_files:
 
 # Plug-ins
 plugins:
-  - jekyll-assets
   - jekyll-archives-v2
   - jekyll-email-protect
   - jekyll-feed
@@ -639,11 +638,13 @@ jsonresume:
   - work
   - education
   - publications
+  - talks
   - projects
   - volunteer
   - awards
   - certificates
   - skills
+  - patents
   - languages
   - interests
   - references
