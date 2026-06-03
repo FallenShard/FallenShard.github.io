@@ -7,10 +7,8 @@ importance: 3
 category: masters
 ---
 
-<div class="row">
-    <div class="offset-1 col-10 embed-responsive embed-responsive-16by9 mt-3 mb-3">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/55rsJI11FOA?rel=0" allowfullscreen></iframe>
-    </div>
+<div class="embed-16by9 media-center">
+    <iframe src="https://www.youtube.com/embed/55rsJI11FOA?rel=0" allowfullscreen></iframe>
 </div>
 
 For my Master Thesis, I was working on the problem of real-time fluid rendering and style transfer.
@@ -27,16 +25,10 @@ in conjunction with fast stylization using neural networks.
 
 Some of the produced stylized captures are featured in the videos below.
 
-<div class="row">
-    <div class="col-4 embed-responsive embed-responsive-16by9 mt-2 mb-2">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/eP8NOasM330" allowfullscreen></iframe>
-    </div>
-    <div class="col-4 embed-responsive embed-responsive-16by9 mt-2 mb-2">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-MgJGsJZrTA" allowfullscreen></iframe>
-    </div>
-    <div class="col-4 embed-responsive embed-responsive-16by9 mt-2 mb-2">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/d044V9bMPxQ" allowfullscreen></iframe>
-    </div>
+<div class="img-grid">
+    <div class="embed-16by9"><iframe src="https://www.youtube.com/embed/eP8NOasM330" allowfullscreen></iframe></div>
+    <div class="embed-16by9"><iframe src="https://www.youtube.com/embed/-MgJGsJZrTA" allowfullscreen></iframe></div>
+    <div class="embed-16by9"><iframe src="https://www.youtube.com/embed/d044V9bMPxQ" allowfullscreen></iframe></div>
 </div>
 
 ## References &amp; Further Reading

@@ -16,7 +16,6 @@ well as the flexibilty and rapid prototyping entirely in Qt and QML.
 The UI direction is reminiscent of MMOs popular in the beginning of 2010s, like
 World of Warcraft.
 
-<div class="offset-1 col-10 embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/A5mdPlzZKEw"
-        allowfullscreen></iframe>
+<div class="embed-16by9 media-center">
+    <iframe src="https://www.youtube.com/embed/A5mdPlzZKEw" allowfullscreen></iframe>
 </div>

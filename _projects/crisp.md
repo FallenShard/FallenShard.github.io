@@ -46,143 +46,29 @@ The path tracer includes the following:
    - Direct lighting
    - Standard path tracing with multiple importance sampling
  - Point, area, environment lights.
-   
+
 Some examples and illustrations are shown below.
 
-<div class="col-12">
-    <h1 class="text-center center-block heading">Gallery</h1>
-</div>
+## Gallery
 
-<div class="row">
-<div class="col-4">
-    <figure class="figure">
-        <img src="{{ "assets/img/crisp/atmo_rising.png" | relative_url }}" class="figure-img img-fluid rounded" alt="Fluid">
-        <figcaption class="figure-caption text-center">Atmospheric shading at dawn </figcaption>
-    </figure>
-</div>
-
-<div class="col-4">
-    <figure class="figure">
-        <img src="{{ "assets/img/crisp/atmo_noon.png" | relative_url }}" class="figure-img img-fluid rounded" alt="Fluid">
-        <figcaption class="figure-caption text-center">Atmospheric shading at noon</figcaption>
-    </figure>
-</div>
-
-<div class="col-4">
-    <figure class="figure">
-        <img src="{{ "assets/img/crisp/atmo_sunset.png" | relative_url }}" class="figure-img img-fluid rounded" alt="Fluid">
-        <figcaption class="figure-caption text-center">Atmospheric shading at sunset</figcaption>
-    </figure>
-</div>
-</div>
-
-<div class="row">
-<div class="col-4">
-    <figure class="figure">
-        <img src="{{ "assets/img/crisp/foliage.png" | relative_url }}" class="figure-img img-fluid rounded" alt="Fluid">
-        <figcaption class="figure-caption text-center">Foliage with basic alpha testing</figcaption>
-    </figure>
-</div>
-
-<div class="col-4">
-    <figure class="figure">
-        <img src="{{ "assets/img/crisp/sph_sim.png" | relative_url }}" class="figure-img img-fluid rounded" alt="Fluid">
-        <figcaption class="figure-caption text-center">A still frame from an SPH simulation
-        </figcaption>
-    </figure>
-</div>
-
-<div class="col-4">
-    <figure class="figure">
-        <img src="{{ "assets/img/crisp/ocean_sim.png" | relative_url }}" class="figure-img img-fluid rounded" alt="Fluid">
-        <figcaption class="figure-caption text-center">FFT-based ocean simulation</figcaption>
-    </figure>
-</div>
-</div>
-
-<div class="row">
-<div class="col-4">
-    <figure class="figure">
-        <img src="{{ "assets/img/crisp/ssao.png" | relative_url }}" class="figure-img img-fluid rounded" alt="Fluid">
-        <figcaption class="figure-caption text-center">Screen-space ambient occlusion</figcaption>
-    </figure>
-</div>
-
-<div class="col-4">
-    <figure class="figure">
-        <img src="{{ "assets/img/crisp/forward_clustered.png" | relative_url }}" class="figure-img img-fluid rounded" alt="Fluid">
-        <figcaption class="figure-caption text-center">Forward-clustered lighting</figcaption>
-    </figure>
-</div>
-
-<div class="col-4">
-    <figure class="figure">
-        <img src="{{ "assets/img/crisp/atmo_zoomed.png" | relative_url }}" class="figure-img img-fluid rounded" alt="Fluid">
-        <figcaption class="figure-caption text-center">Atmospheric shading viewed from space</figcaption>
-    </figure>
-</div>
-</div>
-
-<div class="row">
-<div class="col-4">
-    <figure class="figure">
-        <img src="{{ "assets/img/crisp/pbr_marble.png" | relative_url }}" class="figure-img img-fluid rounded" alt="Fluid">
-        <figcaption class="figure-caption text-center">PBR-shaded marble</figcaption>
-    </figure>
-</div>
-
-<div class="col-4">
-    <figure class="figure">
-        <img src="{{ "assets/img/crisp/rt_materials.png" | relative_url }}" class="figure-img img-fluid rounded" alt="Fluid">
-        <figcaption class="figure-caption text-center">Ray-traced frosted glass, diffuse and copper</figcaption>
-    </figure>
-</div>
-
-<div class="col-4">
-    <figure class="figure">
-        <img src="{{ "assets/img/crisp/rt_cornell.png" | relative_url }}" class="figure-img img-fluid rounded" alt="Fluid">
-        <figcaption class="figure-caption text-center">Ray-traced modified Cornell scene</figcaption>
-    </figure>
-</div>
-</div>
-
-<div class="row">
-<div class="col-4">
-    <figure class="figure">
-        <img src="{{ "assets/img/crisp/pbr_gold.png" | relative_url }}" class="figure-img img-fluid rounded" alt="Fluid">
-        <figcaption class="figure-caption text-center">PBR-shaded gold</figcaption>
-    </figure>
-</div>
-
-<div class="col-4">
-    <figure class="figure">
-        <img src="{{ "assets/img/crisp/pbr_rusted_iron.png" | relative_url }}" class="figure-img img-fluid rounded" alt="Fluid">
-        <figcaption class="figure-caption text-center">PBR-shaded rusted iron</figcaption>
-    </figure>
-</div>
-
-<div class="col-4">
-    <figure class="figure">
-        <img src="{{ "assets/img/crisp/pbr_brick.png" | relative_url }}" class="figure-img img-fluid rounded" alt="Fluid">
-        <figcaption class="figure-caption text-center">PBR-shaded brick</figcaption>
-    </figure>
-</div>
-</div>
-
-<div class="row">
-<div class="col-4">
-    <figure class="figure">
-        <img src="{{ "assets/img/crisp/gltf_render.png" | relative_url }}" class="figure-img img-fluid rounded" alt="Fluid">
-        <figcaption class="figure-caption text-center">GLTF Helmet</figcaption>
-    </figure>
-</div>
-
-<div class="col-4">
-    <figure class="figure">
-        <img src="{{ "assets/img/crisp/vulkan_ray_tracing.png" | relative_url }}" class="figure-img img-fluid rounded" alt="Fluid">
-        <figcaption class="figure-caption text-center">Vulkan Path Tracer</figcaption>
-    </figure>
-</div>
+<div class="img-grid">
+  {% include figure.liquid path="assets/img/crisp/atmo_rising.png" class="rounded z-depth-1" caption="Atmospheric shading at dawn" %}
+  {% include figure.liquid path="assets/img/crisp/atmo_noon.png" class="rounded z-depth-1" caption="Atmospheric shading at noon" %}
+  {% include figure.liquid path="assets/img/crisp/atmo_sunset.png" class="rounded z-depth-1" caption="Atmospheric shading at sunset" %}
+  {% include figure.liquid path="assets/img/crisp/foliage.png" class="rounded z-depth-1" caption="Foliage with basic alpha testing" %}
+  {% include figure.liquid path="assets/img/crisp/sph_sim.png" class="rounded z-depth-1" caption="A still frame from an SPH simulation" %}
+  {% include figure.liquid path="assets/img/crisp/ocean_sim.png" class="rounded z-depth-1" caption="FFT-based ocean simulation" %}
+  {% include figure.liquid path="assets/img/crisp/ssao.png" class="rounded z-depth-1" caption="Screen-space ambient occlusion" %}
+  {% include figure.liquid path="assets/img/crisp/forward_clustered.png" class="rounded z-depth-1" caption="Forward-clustered lighting" %}
+  {% include figure.liquid path="assets/img/crisp/atmo_zoomed.png" class="rounded z-depth-1" caption="Atmospheric shading viewed from space" %}
+  {% include figure.liquid path="assets/img/crisp/pbr_marble.png" class="rounded z-depth-1" caption="PBR-shaded marble" %}
+  {% include figure.liquid path="assets/img/crisp/rt_materials.png" class="rounded z-depth-1" caption="Ray-traced frosted glass, diffuse and copper" %}
+  {% include figure.liquid path="assets/img/crisp/rt_cornell.png" class="rounded z-depth-1" caption="Ray-traced modified Cornell scene" %}
+  {% include figure.liquid path="assets/img/crisp/pbr_gold.png" class="rounded z-depth-1" caption="PBR-shaded gold" %}
+  {% include figure.liquid path="assets/img/crisp/pbr_rusted_iron.png" class="rounded z-depth-1" caption="PBR-shaded rusted iron" %}
+  {% include figure.liquid path="assets/img/crisp/pbr_brick.png" class="rounded z-depth-1" caption="PBR-shaded brick" %}
+  {% include figure.liquid path="assets/img/crisp/gltf_render.png" class="rounded z-depth-1" caption="GLTF Helmet" %}
+  {% include figure.liquid path="assets/img/crisp/vulkan_ray_tracing.png" class="rounded z-depth-1" caption="Vulkan Path Tracer" %}
 </div>
 
 The shader ball with thinner base used in ray-traced images was modeled by myself in Blender with inspirations from various other shader balls

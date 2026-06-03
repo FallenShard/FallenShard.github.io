@@ -9,8 +9,8 @@ category: bachelor
 
 Dynamic terrain tessellation demo was created for my Bachelor thesis when the programmable tessellation stages were in their infancy. It was an attempt to reimplement existing methods that relied on clipmaps and then compare performance and flexibility.
 
-<div class="offset-1 col-10 embed-responsive embed-responsive-16by9 mb-3">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vuBZmWiY4_k" allowfullscreen></iframe>
+<div class="embed-16by9 media-center">
+    <iframe src="https://www.youtube.com/embed/vuBZmWiY4_k" allowfullscreen></iframe>
 </div>
 
 ## References &amp; Further Reading

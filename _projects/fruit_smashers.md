@@ -7,8 +7,8 @@ importance: 1
 category: masters
 ---
 
-<div class="offset-1 col-10 embed-responsive embed-responsive-16by9 mt-3 mb-3">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7UzhVGa_J4I?rel=0" allowfullscreen></iframe>
+<div class="embed-16by9 media-center">
+    <iframe src="https://www.youtube.com/embed/7UzhVGa_J4I?rel=0" allowfullscreen></iframe>
 </div>
 
 For my Master Thesis, I was working on the problem of real-time fluid rendering and style transfer.

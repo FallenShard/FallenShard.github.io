@@ -7,10 +7,8 @@ importance: 4
 category: phd
 ---
 
-<div class="row">
-<div class="offset-1 col-10 embed-responsive embed-responsive-16by9 mb-3">
-    <iframe src="https://www.youtube.com/embed/DmJtsm02Uyw" width="640" height="480" allowfullscreen></iframe>
-</div>
+<div class="embed-16by9 media-center">
+    <iframe src="https://www.youtube.com/embed/DmJtsm02Uyw" allowfullscreen></iframe>
 </div>
 
 During my first year of PhD studies, I was working with high-dimensional flow data in the context of
@@ -21,7 +19,7 @@ I have presented the paper at Eurographics & Eurovis 2020 joint conference. We a
 
 The abstract is given here:
 
-<div class="offset-1 col-10 content-text text-justify">
+<div class="media-center" style="text-align: justify">
     <p>
         <i>
         Dynamical systems are commonly used to describe the state of time-dependent systems. In many engineering and control problems, 

@@ -26,3 +26,81 @@
     max-width: 67%;
   }
 }
+
+// -----------------------------------------------------------------------------
+// Project galleries & media
+//
+// al-folio v1 dropped Bootstrap; its curated Tailwind build has no grid/embed
+// utilities. These classes replace the legacy `row` / `col-*` / `figure` /
+// `embed-responsive` markup the project pages used. Breakpoints match the gem
+// grid (576px / 768px).
+// -----------------------------------------------------------------------------
+
+// Responsive image gallery: 1 col -> 2 cols (>=576px) -> 3 cols (>=768px).
+.img-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin: 1.5rem 0;
+
+  @media (min-width: 576px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  // figure.liquid output and bare <figure> elements become grid cells
+  figure {
+    margin: 0;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  figcaption,
+  .caption {
+    margin-top: 0.4rem;
+    text-align: center;
+    font-size: 0.85rem;
+    line-height: 1.3;
+  }
+  // embeds placed in the grid shouldn't add their own outer margin
+  .embed-16by9 {
+    margin: 0;
+  }
+}
+
+// Cap a gallery at 2 columns on large screens.
+.img-grid--2 {
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+// Responsive 16:9 embed (YouTube/iframe); replaces .embed-responsive-16by9.
+.embed-16by9 {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin: 1rem 0;
+
+  iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 0.25rem;
+  }
+}
+
+// Center a single media block at a comfortable width (replaces `offset-1 col-10`).
+.media-center {
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (min-width: 576px) {
+    max-width: 83.333%;
+  }
+}

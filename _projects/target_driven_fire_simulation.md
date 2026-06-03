@@ -7,8 +7,8 @@ importance: 1
 category: masters
 ---
 
-<div class="offset-1 col-10 embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/yhPi1R2PRF8" allowfullscreen></iframe>
+<div class="embed-16by9 media-center">
+    <iframe src="https://www.youtube.com/embed/yhPi1R2PRF8" allowfullscreen></iframe>
 </div>
 
 <div class="col-12 content-text card-deck-margin">
