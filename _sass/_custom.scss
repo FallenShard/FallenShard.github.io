@@ -1,0 +1,28 @@
+// =============================================================================
+// Site-local style overrides (al-folio v1)
+//
+// This partial is @use'd last in assets/css/main.scss, so rules here win on
+// equal specificity. Add only the rules you want to change; everything else
+// is provided by the al_folio_* gem partials.
+// =============================================================================
+
+// -----------------------------------------------------------------------------
+// Publications: enlarge preview thumbnails
+//
+// The gem's _layouts/bib.liquid renders each entry as a Bootstrap-style row:
+//   .col-sm-2.abbr (preview)  +  .col-sm-8 (content)
+// The gem grid gives the preview only 16.67% width. Widen it to ~25% (and grow
+// the content column to fill the row). Same 576px breakpoint as the gem grid;
+// higher selector specificity means no !important is needed.
+// -----------------------------------------------------------------------------
+@media (min-width: 576px) {
+  .publications .row > .col-sm-2.abbr {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  .publications .row > .col-sm-2.abbr + .col-sm-8 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+}
