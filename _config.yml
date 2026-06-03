@@ -686,13 +686,13 @@ jsonresume:
   - work
   - education
   - publications
-  # - talks      # custom section: re-enabled after wiring al_folio_cv override
+  - talks
   - projects
   - volunteer
   - awards
   - certificates
   - skills
-  # - patents    # custom section: re-enabled after wiring al_folio_cv override
+  - patents
   - languages
   - interests
   - references
