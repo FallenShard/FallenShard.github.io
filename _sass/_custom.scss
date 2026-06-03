@@ -104,3 +104,25 @@
     max-width: 83.333%;
   }
 }
+
+// -----------------------------------------------------------------------------
+// CV (al_folio_cv) tweaks
+// -----------------------------------------------------------------------------
+.cv {
+  // Keep the date range (e.g. "2021 - Present") on one line in its narrow column.
+  .date-column .badge {
+    white-space: nowrap;
+  }
+
+  // Tidy the experience/education highlight bullets. The gem ships
+  // <ul class="items"> unstyled, so it falls back to nested-list circle markers.
+  ul.items {
+    margin: 0.5rem 0 0;
+    padding-left: 1.2rem;
+    list-style: disc;
+
+    li {
+      margin-bottom: 0.4rem;
+    }
+  }
+}

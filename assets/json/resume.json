@@ -11,6 +11,7 @@
     {
       "name"      : "Meta Platforms, Reality Labs",
       "position"  : "Senior Staff Software Engineer",
+      "location"  : "Zurich, Switzerland",
       "startDate" : "2021-08-15",
       "summary"   : "real-time rendering, neural rendering, performance optimizations, cloth simulation",
       "highlights": [
@@ -25,6 +26,7 @@
     {
       "name"      : "Daedalean AG",
       "position"  : "Software Engineer",
+      "location"  : "Zurich, Switzerland",
       "startDate" : "2020-09-01",
       "endDate"   : "2021-08-01",
       "summary"   : "real-time rendering, machine learning, flight simulations",
@@ -37,6 +39,7 @@
     {
       "name"      : "ETH Zürich",
       "position"  : "Research Assistant",
+      "location"  : "Zurich, Switzerland",
       "startDate" : "2019-05-01",
       "endDate"   : "2020-08-01",
       "summary"   : "scientific visualization, flow analysis, dimensionality reduction, machine learning",
@@ -47,6 +50,7 @@
     {
       "name"      : "Kapanu AG",
       "position"  : "Rendering Engineer",
+      "location"  : "Zurich, Switzerland",
       "startDate" : "2017-06-01",
       "endDate"   : "2019-05-01",
       "summary"   : "real-time rendering, software architecture, geometry processing, inverse rendering",
