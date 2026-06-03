@@ -127,12 +127,12 @@
     white-space: nowrap;
   }
 
-  // Tidy the experience/education highlight bullets. The gem ships
-  // <ul class="items"> unstyled, so it falls back to nested-list circle markers.
+  // No bullets anywhere in the CV — including the experience/education
+  // highlight list (gem ships <ul class="items"> unstyled).
   ul.items {
     margin: 0.5rem 0 0;
-    padding-left: 1.2rem;
-    list-style: disc;
+    padding-left: 0;
+    list-style: none;
 
     li {
       margin-bottom: 0.4rem;
