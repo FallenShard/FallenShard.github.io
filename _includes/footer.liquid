@@ -1,0 +1,48 @@
+{% comment %}
+  Local override of al_folio_core's footer.liquid.
+  Removes the "© Copyright <year> <name>" banner. The footer is only rendered
+  when there is actual content (footer_text, impressum, last updated, or the
+  newsletter form); otherwise it is omitted entirely so no empty bar shows.
+{% endcomment %}
+{% capture footer_contents %}
+  {{ site.footer_text }}
+  {% if site.impressum_path %}
+    <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
+  {% endif %}
+  {% if site.last_updated %}
+    Last updated: {{ 'now' | date: '%B %d, %Y' }}.
+  {% endif %}
+{% endcapture %}
+{% assign footer_trimmed = footer_contents | strip_html | strip %}
+
+{% if site.footer_fixed %}
+  {% if footer_trimmed != "" %}
+    <footer class="fixed-bottom" role="contentinfo">
+      <div class="container mt-0">
+        {{ footer_contents }}
+      </div>
+    </footer>
+  {% endif %}
+{% else %}
+  {% assign show_newsletter = false %}
+  {% if site.newsletter.enabled %}
+    {% assign show_newsletter = true %}
+  {% endif %}
+  {% if footer_trimmed != "" or show_newsletter %}
+    <footer class="sticky-bottom mt-5" role="contentinfo">
+      {% if show_newsletter %}
+        {% if site.plugins contains 'al_newsletter' %}
+          {% include plugins/al_newsletter_form_center.liquid %}
+        {% else %}
+          {% include newsletter.liquid %}
+        {% endif %}
+      {% endif %}
+
+      {% if footer_trimmed != "" %}
+        <div class="container">
+          {{ footer_contents }}
+        </div>
+      {% endif %}
+    </footer>
+  {% endif %}
+{% endif %}
