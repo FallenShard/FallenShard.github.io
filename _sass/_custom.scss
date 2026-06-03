@@ -109,6 +109,19 @@
 // CV (al_folio_cv) tweaks
 // -----------------------------------------------------------------------------
 .cv {
+  // Each CV entry is wrapped in <ul class="list-group list-group-flush"> with
+  // <li class="list-group-item">. The curated Tailwind build doesn't reset that
+  // list, so remove the stray entry-level bullet and its indent.
+  ul.list-group {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+
+    > li.list-group-item {
+      list-style: none;
+    }
+  }
+
   // Keep the date range (e.g. "2021 - Present") on one line in its narrow column.
   .date-column .badge {
     white-space: nowrap;
