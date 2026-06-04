@@ -161,11 +161,19 @@
   }
 
   // No bullets anywhere in the CV — including the experience/education
-  // highlight list (gem ships <ul class="items"> unstyled).
+  // highlight list (gem ships <ul class="items"> unstyled). Indent the list to
+  // match the title/company/summary, which the gem marks up with `ml-1 ml-md-4`
+  // (0.25rem on mobile, 1.5rem at >=768px), so highlights line up with them.
   ul.items {
-    margin: 0.5rem 0 0;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    margin-left: 0.25rem;
     padding-left: 0;
     list-style: none;
+
+    @media (min-width: 768px) {
+      margin-left: 1.5rem;
+    }
 
     li {
       margin-bottom: 0.4rem;
