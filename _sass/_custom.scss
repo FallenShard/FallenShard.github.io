@@ -122,6 +122,17 @@
     }
   }
 
+  // Make the date column consistent across ALL sections. The gem styles
+  // .date-column (Experience/Education only) as a shifted 75px box:
+  //   .date-column { width: 75px; transform: translateX(-15px) translateY(-5px); }
+  // but Publications/Talks/Patents have no .date-column, so they use the full
+  // col-md-2 width with no offset. Neutralize .date-column so every section's
+  // date column lines up the same way.
+  .date-column {
+    width: auto;
+    transform: none;
+  }
+
   // Left-align every date block (badge + optional location) so the column has a
   // single consistent left edge across entries; the gem's block-level
   // <table class="table-cv"> already sits left, so just make sure it doesn't stretch.
