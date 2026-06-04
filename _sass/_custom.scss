@@ -122,9 +122,23 @@
     }
   }
 
-  // Keep the date range (e.g. "2021 - Present") on one line in its narrow column.
-  .date-column .badge {
+  // Center the date block (badge + optional location pin) within its narrow,
+  // text-center column. The gem wraps it in a block-level <table class="table-cv">,
+  // which ignores the column's text-align, so it sits left-aligned. Covers every
+  // section (experience/education use .date-column; publications/talks/patents don't).
+  table.table-cv {
+    margin-left: auto;
+    margin-right: auto;
+
+    td {
+      text-align: center;
+    }
+  }
+
+  // Keep the date range on one line and center the year text inside the badge.
+  .badge {
     white-space: nowrap;
+    text-align: center;
   }
 
   // No bullets anywhere in the CV — including the experience/education
