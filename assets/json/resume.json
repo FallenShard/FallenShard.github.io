@@ -13,6 +13,7 @@
       "position"  : "Senior Staff Software Engineer",
       "location"  : "Zurich, Switzerland",
       "startDate" : "2021-08-15",
+      "endDate"   : "Present",
       "summary"   : "real-time rendering, neural rendering, performance optimizations, cloth simulation",
       "highlights": [
         "Tech lead for real-time neural graphics and novel representations, coordinating work across multiple teams and organizations to ship research ideas into production.",
