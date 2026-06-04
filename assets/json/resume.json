@@ -65,6 +65,7 @@
     {
       "institution": "ETH  Zurich, Zurich, Switzerland",
       "location"   : "Zurich, Switzerland",
+      "url"        : "https://www.ethz.ch/",
       "area"       : "Computer Science - Visual Computing",
       "studyType"  : "Master in Computer Science",
       "startDate"  : "2015-09-01",
@@ -73,7 +74,7 @@
     {
       "institution": "Faculty of Electronic Engineering, Nis, Serbia",
       "location"   : "Nis, Serbia",
-      "url"        : "https://www.uzh.ch/",
+      "url"        : "https://www.elfak.ni.ac.rs/",
       "area"       : "Computer Science",
       "studyType"  : "Bachelor in Computer Science",
       "startDate"  : "2011-10-01",
@@ -89,11 +90,11 @@
       "summary": "Co-developed a novel rasterization-based Gaussian splatting algorithm that minimizes projection errors in high field-of-view settings like VR rendering."
     },
     {
-      "name"       : "SqueezeMe: Mobile-Ready Distillation of Gaussian Full-Body Avatars",
-      "publisher"  : "SIGGRAPH 2025",
+      "name": "SqueezeMe: Mobile-Ready Distillation of Gaussian Full-Body Avatars",
+      "publisher": "SIGGRAPH 2025",
       "releaseDate": "2025",
-      "url"        : "https://arxiv.org/abs/2412.15171",
-      "summary"    : "Developed a method to animate and render multiple digital human avatars in real-time on commodity VR hardware."
+      "url": "https://arxiv.org/abs/2412.15171",
+      "summary": "Developed a method to animate and render multiple digital human avatars in real-time on commodity VR hardware."
     },
     {
       "name": "Phase Space Projection of Dynamical Systems",
@@ -112,11 +113,11 @@
   ],
   "talks"       : [
     {
-      "name"       : "Gaussian Splatting: Ready for Standardization?",
-      "publisher"  : "SIGGRAPH 2025",
+      "name": "Gaussian Splatting: Ready for Standardization?",
+      "publisher": "SIGGRAPH 2025",
       "releaseDate": "2025",
-      "url"        : "",
-      "summary"    : "Described the state of Gaussian splatting at Meta and outlined practical forward-looking file format considerations."
+      "url": "",
+      "summary": "Described the state of Gaussian splatting at Meta and outlined practical forward-looking file format considerations."
     }
   ],
   "projects"    : [
@@ -131,10 +132,18 @@
     }
   ],
   "skills"      : [
-    { "name": "Languages & APIs", "keywords": ["C++, Vulkan, OpenGL, Python, C, MATLAB, CUDA, SIMD"] },
-    { "name": "Tools", "keywords": ["VS Code, Visual Studio, RenderDoc, Nsight, Git, Mercurial, CMake, Bazel, Buck"] },
-    { "name": "General", "keywords": ["Software architecture, modern C++, optimization"] },
-    { "name": "Visual Computing", "keywords": ["Real-time rendering, ray tracing, geometry processing, neural rendering, physically-based simulation"] }
+    { "name": "Languages & APIs", "keywords": [ "C++, Vulkan, OpenGL, Python, C, MATLAB, CUDA, SIMD" ] },
+    {
+      "name"    : "Tools",
+      "keywords": [ "VS Code, Visual Studio, RenderDoc, Nsight, Git, Mercurial, CMake, Bazel, Buck" ]
+    },
+    { "name": "General", "keywords": [ "Software architecture, modern C++, optimization" ] },
+    {
+      "name"    : "Visual Computing",
+      "keywords": [
+        "Real-time rendering, ray tracing, geometry processing, neural rendering, physically-based simulation"
+      ]
+    }
   ],
   "patents"     : [
     {

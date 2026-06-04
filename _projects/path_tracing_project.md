@@ -5,20 +5,22 @@ description: A rendering competition submission.
 img: assets/img/cards/ray-tracing.png
 importance: 1
 category: masters
+images:
+  slider: true
 ---
 
-<div class="img-grid">
-  {% include figure.liquid path="assets/img/rt/rt-image-1.png" class="rounded z-depth-1" caption="A test for microfacet material model (Veach's PhD Thesis)" %}
-  {% include figure.liquid path="assets/img/rt/rt-image-2.png" class="rounded z-depth-1" caption="Cornell box" %}
-  {% include figure.liquid path="assets/img/rt/rt-image-3.png" class="rounded z-depth-1" caption="Photon mapping" %}
-  {% include figure.liquid path="assets/img/rt/rt-image-4.png" class="rounded z-depth-1" caption="Subsurface scattering (milk parameters)" %}
-  {% include figure.liquid path="assets/img/rt/rt-image-5.png" class="rounded z-depth-1" caption="Subsurface scattering (potato parameters)" %}
-  {% include figure.liquid path="assets/img/rt/rt-image-6.png" class="rounded z-depth-1" caption="Heterogeneous participating medium" %}
-  {% include figure.liquid path="assets/img/rt/rt-image-7.png" class="rounded z-depth-1" caption="Homogeneous participating medium" %}
-  {% include figure.liquid path="assets/img/rt/rt-image-8.png" class="rounded z-depth-1" caption="Microfacet bowl and glass scene" %}
-  {% include figure.liquid path="assets/img/rt/rt-image-9.png" class="rounded z-depth-1" caption="Cornell box with participating media" %}
-  {% include figure.liquid path="assets/img/rt/rt-image-10.png" class="rounded z-depth-1" caption="Final project image" %}
-</div>
+<swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
+  <swiper-slide>{% include figure.liquid path="assets/img/rt/rt-image-1.png" class="img-fluid rounded z-depth-1" caption="A test for microfacet material model (Veach's PhD Thesis)" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid path="assets/img/rt/rt-image-2.png" class="img-fluid rounded z-depth-1" caption="Cornell box" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid path="assets/img/rt/rt-image-3.png" class="img-fluid rounded z-depth-1" caption="Photon mapping" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid path="assets/img/rt/rt-image-4.png" class="img-fluid rounded z-depth-1" caption="Subsurface scattering (milk parameters)" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid path="assets/img/rt/rt-image-5.png" class="img-fluid rounded z-depth-1" caption="Subsurface scattering (potato parameters)" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid path="assets/img/rt/rt-image-6.png" class="img-fluid rounded z-depth-1" caption="Heterogeneous participating medium" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid path="assets/img/rt/rt-image-7.png" class="img-fluid rounded z-depth-1" caption="Homogeneous participating medium" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid path="assets/img/rt/rt-image-8.png" class="img-fluid rounded z-depth-1" caption="Microfacet bowl and glass scene" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid path="assets/img/rt/rt-image-9.png" class="img-fluid rounded z-depth-1" caption="Cornell box with participating media" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid path="assets/img/rt/rt-image-10.png" class="img-fluid rounded z-depth-1" caption="Final project image" %}</swiper-slide>
+</swiper-container>
 
 In the computer graphics course at ETH Zurich, our task was to gradually add features and extend the capabilities of a ray-tracing framework called Nori.
 
