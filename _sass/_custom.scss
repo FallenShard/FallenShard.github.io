@@ -140,6 +140,16 @@
     width: auto;
     margin-left: 0;
     margin-right: 0;
+
+    td {
+      // The column is .text-center, which would center the badge inside a cell
+      // whose width tracks the (variable-length) location text — so badges drift
+      // right by different amounts per entry. Pin cell content to the left.
+      text-align: left;
+      // The gem's typography rule `table:not(.table) td { border-top: 1px ... }`
+      // adds a stray divider line above each badge. Remove it for this table.
+      border-top: 0;
+    }
   }
 
   // Keep the date range on one line, and center the year text inside the fixed
