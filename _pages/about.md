@@ -2,14 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: Software Engineer @ Meta
+subtitle: Software Engineer
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Zurich, Switzerland</p>
+  # more_info: >
+  #   <p>Zurich, Switzerland</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -29,4 +29,4 @@ Hi there! I'm a software engineer with an interest in real-time rendering and ad
 
 I am the lead developer of our cross-platform, in-house 3D Gaussian splatting engine that powers both scenes (Hyperscapes) and Codec Avatars, written in Vulkan.
 
-If you have a Quest device, you can try our [Hyperscape Horizon Demo](https://www.meta.com/en-gb/experiences/meta-horizon-hyperscape-demo/7972066712871980/?srsltid=AfmBOopIAXN1Xg6-BT16z1MCYNFZbpEps4lRgg9O9JJ8r8jYHiw49M0g) to see some of reconstructed environments in VR!
+If you have a Quest device, you can try our [Hyperscape Capture App](https://www.meta.com/en-gb/experiences/meta-horizon-hyperscape-capture-beta/8798130056953686/) to capture and experience reconstructed environments in VR!
