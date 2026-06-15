@@ -3,6 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: Software Engineer
+description: Software engineer at Meta working on efficient photorealistic rendering and real-time 3D Gaussian splatting for mobile and VR.
 
 profile:
   align: right

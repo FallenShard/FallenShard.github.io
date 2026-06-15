@@ -8,7 +8,10 @@ middle_name:
 last_name: Bartolović
 contact_note: >
   Feel free to send any questions via email!
-keywords: # add your own keywords or leave empty
+keywords: real-time rendering, computer graphics, gaussian splatting, 3D reconstruction, Vulkan, rendering engineer, Nemanja Bartolović
+description: >- # site-wide fallback meta/OG description for pages without their own
+  Nemanja Bartolović — software engineer at Meta working on efficient
+  photorealistic rendering and real-time 3D Gaussian splatting.
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 📊 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -73,9 +76,9 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: /assets/img/prof_pic.jpg # The site-wide (default for all links) Open Graph preview image (root-relative path; crawlers resolve it against the page URL)
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
