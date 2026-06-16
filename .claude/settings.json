@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Write-Output \"=== git config \\(PowerShell/Windows git\\) ===\"; foreach \\($k in @\\('core.autocrlf','core.filemode','core.ignorecase','core.excludesfile'\\)\\) { $v = git config --get $k; if \\(-not $v\\) { $v = '\\(unset\\)' }; \"{0,-20} {1}\" -f $k, $v }; Write-Output \"=== git status --short \\(PowerShell\\) ===\"; git status --short; Write-Output \"=== git --version & which ===\"; git --version; \\(Get-Command git\\).Source)",
+      "PowerShell(Write-Output \"=== Windows HOME/USERPROFILE ===\"; Write-Output $HOME; Write-Output $env:USERPROFILE; Write-Output \"=== resolved global ignore + check-ignore ===\"; git check-ignore -v .claude/settings.json .claude/settings.local.json 2>$null; if \\(-not $?\\) { Write-Output \"\\(nothing ignored\\)\" }; Write-Output \"=== global ignore file exists? ===\"; Test-Path \"$HOME\\\\.config\\\\git\\\\ignore\")",
+      "Bash(command -v purgecss)",
+      "Bash(ls node_modules/.bin/purgecss*)",
+      "Bash(ls \"/d/Programs/ImageMagick-7.1.1-Q16-HDRI/convert.exe\")",
+      "Bash(command -v convert)"
+    ]
+  }
+}
